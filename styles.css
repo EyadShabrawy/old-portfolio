@@ -211,7 +211,27 @@ section {
     border-width: 5px;
     border-style: solid;
     border-color: black transparent transparent transparent;
-  }
+}
+
+.tool-icon:nth-child(2) {
+    transition-delay: 200ms;
+
+}
+.tool-icon:nth-child(3) {
+    transition-delay: 400ms;
+}
+.tool-icon:nth-child(4) {
+    transition-delay: 600ms;
+}
+.tool-icon:nth-child(5) {
+    transition-delay: 800ms;
+}
+.tool-icon:nth-child(6) {
+    transition-delay: 1000ms;
+}
+.tool-icon:nth-child(7) {
+    transition-delay: 1200ms;
+}
 
 
 .card {
@@ -369,6 +389,19 @@ section {
 .hvr-grow:focus,
 .hvr-grow:active {
     transform: scale(1.1);
+}
+
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
 }
 
 
