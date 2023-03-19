@@ -213,25 +213,6 @@ section {
     border-color: black transparent transparent transparent;
 }
 
-.tool-icon:nth-child(2) {
-    transition-delay: 200ms;
-
-}
-.tool-icon:nth-child(3) {
-    transition-delay: 400ms;
-}
-.tool-icon:nth-child(4) {
-    transition-delay: 600ms;
-}
-.tool-icon:nth-child(5) {
-    transition-delay: 800ms;
-}
-.tool-icon:nth-child(6) {
-    transition-delay: 1000ms;
-}
-.tool-icon:nth-child(7) {
-    transition-delay: 1200ms;
-}
 
 
 .card {
@@ -297,6 +278,7 @@ section {
     overflow: hidden;
     border-radius: 10px;
     margin: 20px;
+    display: flex;
 }
 
 .project-card:hover {
@@ -312,6 +294,7 @@ section {
 }
 
 .project-info {
+    align-self: flex-end;
     padding: 1em;
 }
 
@@ -330,11 +313,12 @@ section {
 
 .more-details {
     text-decoration: none;
-    color: rgb(255, 35, 35);
+    color: rgb(255, 63, 63);
+    font-size: 1.5em;
 }
 
 .more-details:hover {
-    color: rgb(255, 63, 63);
+    color: rgb(255, 0, 0);
 }
 
 .contact .icon{
